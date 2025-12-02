@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(193, 183, 183);
+}
+
+.child{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mithlesh{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgb(204, 114, 162);
+  flex-wrap: wrap;
+  
+
+}
+
+.kumar {
+  padding: 10px 10px;
+  display: flex;
+  
+}
+
+.kumar button{
+  margin: 2px 10px 10px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+
+}
+
+.car{
+  width: 1400px;
+  border: 5px solid red;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(14, 14, 17);
+  margin: 30px 30px;
+}
+
+.car h1{
+  color: red;
+}
+
+.card{
+  width: 310px;
+  border: 10px solid rgb(136, 20, 20);
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(241, 239, 240);
+  margin: 30px 25px;
+  
+
+}
+.card:hover{
+  transform: scale(1.05);
+
+}
+
+.card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card img:hover{
+  transform: scale(1.06);
+}
+.m{
+  color: rgb(208, 7, 108);
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.card p{
+  margin: 20px 0;
+
+}
+
+.card button{
+  padding: 10px 20px;
+  background-color: rgb(97, 95, 95);
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
